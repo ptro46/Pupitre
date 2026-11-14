@@ -10,6 +10,10 @@ Télécommande de bureau pour Music Player Daemon (MPD), écrite en Go avec Fyne
 
 Pour compiler un exécutable local, lancer `go build -o Pupitre .` sur macOS ou Linux, ou `go build -o Pupitre.exe .` sur Windows. Compiler sur chaque plateforme avec CGO activé. [Création des paquets Fyne](https://docs.fyne.io/started/packaging/)
 
+## Générer Pupitre.app sur macOS
+
+Depuis la racine du dépôt, avec Go et les outils de ligne de commande Xcode installés, lance `make macos`. Le build produit `dist/Pupitre.app` avec son icône et une signature locale ad hoc, pour l’architecture du Mac qui exécute la commande. Ouvre le dossier avec `open dist`, puis glisse **Pupitre.app** dans **Applications**.
+
 ## Utilisation
 
 - Sélectionner une playlist pour en consulter les morceaux. **Lire la playlist** la charge dans la file active et commence au premier morceau. Un double-clic sur un titre charge la playlist et démarre au morceau choisi. Pupitre demande confirmation si la file contient déjà des morceaux.

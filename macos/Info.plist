@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Pupitre</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pupitre</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.ptro46.pupitre</string>
+	<key>CFBundleExecutable</key>
+	<string>Pupitre</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIconFile</key>
+	<string>Pupitre.icns</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.music</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Pupitre se connecte à ton serveur Music Player Daemon pour afficher les playlists et contrôler la lecture.</string>
+</dict>
+</plist>
