@@ -1,0 +1,2 @@
+# Pupitre
+MPD client Pupitre
