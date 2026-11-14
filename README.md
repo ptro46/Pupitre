@@ -2,6 +2,10 @@
 
 Télécommande de bureau pour Music Player Daemon (MPD), écrite en Go avec Fyne. Pupitre pilote un serveur MPD via TCP. L’audio sort sur les périphériques configurés dans MPD.
 
+## Capture d’écran
+
+![Pupitre sur macOS](capture/Pupitre-MacOS.png)
+
 ## Démarrer
 
 1. Installer Go et les [prérequis Fyne](https://docs.fyne.io/started/quick/) de la plateforme. Sur macOS, les outils de ligne de commande Xcode fournissent le compilateur C.
@@ -31,3 +35,4 @@ Pour l’installer, ouvre le dossier avec `open dist`, puis glisse **Pupitre.app
 - Le panneau du bas affiche la position du morceau dans la file, son avancement et la durée. Il comporte lecture/pause, stop, précédent/suivant, les sauts de ±10 s et ±20 s, et le volume lorsque le serveur expose un mixeur.
 
 Pupitre relit l’état de MPD environ une fois par seconde et interpole le compteur pendant la lecture. Les commandes réseau s’exécutent en arrière-plan.
+
